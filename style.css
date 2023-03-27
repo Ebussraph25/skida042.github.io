@@ -61,6 +61,15 @@
 }
 #hero a{
     text-decoration:none;
+    background-color: transparent;
+    border:2px solid rgb(245, 240, 240);
+    padding:10px 5px;
+    
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
 }
         
     .text-box h4{
