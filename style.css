@@ -46,11 +46,11 @@
     
     
 }
-#hero button a{
+#hero button {
     background-color: transparent;
     border:2px solid rgb(245, 240, 240);
     padding:10px 5px;
-    text-decoration:none;
+    
     background-repeat: no-repeat;
     cursor: pointer;
     font-weight: 700;
@@ -59,7 +59,10 @@
     
     
 }
-
+#hero a{
+    text-decoration:none;
+}
+        
     .text-box h4{
         font-size: 30px;
         color:rgb(131, 51, 51);
