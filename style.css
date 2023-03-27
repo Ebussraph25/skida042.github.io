@@ -21,7 +21,7 @@
     }
 
 #hero{
-    background-image: url("/head.jpg");
+    background-image: url("./hero1.jpg");
     height: 90vh;
      word-wrap: normal;
     background-position: top 25% right 0;
