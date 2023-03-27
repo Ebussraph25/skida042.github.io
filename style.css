@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+/* Header styling */
+
+
+
+    .text-box{
+        width:90%;
+        color:#fff;
+        position:absolute;
+        top:40%;
+        left:50%;
+        transform: translate(-50%, -50%);
+       text-align:center;
+       
+    }
+
+#hero{
+    background-image: url("/hero1.jpg");
+    height: 90vh;
+     word-wrap: normal;
+    background-position: top 25% right 0;
+    background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+#hero h1{
+    color:white;
+    width:100%;
+    padding-top: 70px;
+    margin-top:20%;
+    align-content: center;
+    justify-content: flex-start;
+    text-align: center;
+
+    
+    
+}
+#hero button{
+    background-color: transparent;
+    border:2px solid rgb(245, 240, 240);
+    padding:10px 5px;
+
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    
+    
+}
+
+    .text-box h4{
+        font-size: 30px;
+        color:rgb(131, 51, 51);
+        font-style: italic;
+
+    
+    }
+    .text-box h1{
+        margin:10px 0 40px;
+        font-size: 30px;
+        color: #fff;
+        text-shadow: 1px 3px black;
+    }
+ #hero button:hover {
+       color: rgb(139, 85, 85);
+
+    }
+#service {
+    
+    justify-content: center;
+    align-items: center;
+     width:80%;
+    margin: auto;
+    
+
+
+}
+#service h1{
+    
+    text-align: center;
+    padding-bottom: 30px;
+    padding:100px 0px ;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+ .image img{
+    width: 100%;
+    display: flex;
+    
+
+
+}
+.description h3{
+    padding-top: 20px;
+    padding-bottom:20px ;
+    display: flex;
+    text-align: center;
+    
+}
+.description p {
+    
+    text-align: justify;
+}
+#gallery{
+    justify-content: center;
+    align-items: center;
+     width:80%;
+    margin: auto;
+    
+}
+#gallery h1{
+    text-align: center;
+    padding-bottom: 30px;
+    padding:100px 0px ;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+#about {
+
+    background-image:linear-gradient(rgba(24, 25, 26, 0.7), rgba(4,9,30,0.7)),url("ab1.jpg");
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+
+    
+}
+#about h1{
+
+    
+    
+    margin: auto;
+    text-align: center;
+    padding-bottom: 30px;
+    padding:100px 0px ;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #fff;
+}
+.idtext{
+    padding-top: 20px;
+    padding-bottom:20px ;
+    
+    
+    
+}
+.idtext h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#contact{
+    justify-content: center;
+    align-items: center;
+     width:80%;
+    margin: auto;
+}
+#contact h1{
+    text-align: center;
+    padding-bottom: 30px;
+    padding:100px 0px ;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+#contact .fa{
+    color:red;
+}
